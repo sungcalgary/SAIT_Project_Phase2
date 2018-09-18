@@ -1,0 +1,80 @@
+﻿<%--Threaded Project 2
+    OOSD Spring August 2018
+    By: Marc Javier--%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TravelExperts_Web.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>TravelExperts</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="home.aspx">TravelExperts</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#texpertsnav" aria-controls="#texpertsnav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <%--<div class="navbar-collapse collapse" id="texpertsnav" style="">--%>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Vacations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Cruises</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item active">
+                        <asp:LinkButton ID="LinkButtonManage" runat="server" CssClass="nav-link" CausesValidation="False" OnClick="LinkButtonManage_Click">Manage</asp:LinkButton>
+                    </li>
+                    <li class="nav-item active">
+                        <asp:LinkButton ID="linkHello" runat="server" CssClass="nav-link" CausesValidation="False" OnClick="linkHello_Click"></asp:LinkButton>
+                    </li>
+                    <li class="nav-item active">
+                        <asp:LinkButton ID="LinkButtonLogin" runat="server" PostBackUrl="~/login.aspx" CssClass="nav-link" CausesValidation="False">Login</asp:LinkButton>
+                    </li>
+
+                    <li class="nav-item active">
+                        <asp:LinkButton ID="linkLogoff" runat="server" CssClass="nav-link" CausesValidation="False" OnClick="linkLogoff_Click">Log Off</asp:LinkButton>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+     </header>
+        <%--placeholder for page contents--%>
+        <asp:ContentPlaceHolder ID="mainPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+        <%--footer section--%>
+        <footer>
+            © 2018 TravelExperts. All rights reserved.
+        </footer>
+    </form>
+
+<%--    <script src="Scripts/jquery-3.3.1.js"></script>
+
+
+    <script type="text/javascript">
+        $("#logintoggle").click(function () {
+            $(".login-container").toggleClass("active");
+        });
+    </script>--%>
+
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

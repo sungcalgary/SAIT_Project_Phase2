@@ -1,0 +1,12 @@
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\bin\Debug\TravelExperts-Data.dll
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\bin\Debug\TravelExperts-Data.pdb
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.csprojAssemblyReference.cache
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.csproj.CoreCompileInputs.cache
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.dll
+C:\Users\773646\Source\Repos\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.pdb
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\bin\Debug\TravelExperts-Data.dll
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\bin\Debug\TravelExperts-Data.pdb
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.csprojAssemblyReference.cache
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.csproj.CoreCompileInputs.cache
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.dll
+C:\Users\773646\Desktop\schoolstuff\BACKUPreal\BACKUP\proj207-term2-team-5\proj207-term2-team-5\TravelExperts-Data\obj\Debug\TravelExperts-Data.pdb

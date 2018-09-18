@@ -1,0 +1,174 @@
+﻿/*Threaded Project 2
+OOSD Spring August 2018
+By: Marc Javier*/
+/*additions ruby Chris*/
+
+body {
+}
+
+.h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.alert {
+    line-height: 50px;
+    padding: 0.7rem .5rem;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 4em 1em;
+    margin-bottom: 2em;
+    background-color: #343a40;
+    color: white;
+}
+
+.home-content {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.home-header {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 100px;
+    margin-bottom: 2em;
+}
+
+.home-header::after {
+    background-image: url('../images/airplane-flyby.jpg');
+    background-size: cover;
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.registration-header {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 4em 1em;
+    margin-bottom: 2em;
+}
+
+.registration-header::after {
+    background-image: url('../images/map-figure.jpg');
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.reg-container {
+    /*border: dashed;*/
+    width: 80%;
+    padding: 30px;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.login-header {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 4em 1em;
+    margin-bottom: 2em;
+}
+
+.login-header::after {
+    background-image: url('../images/map-figure.jpg');
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.login-container {
+    /*border: dashed;*/
+    width: 30%;
+    padding: 30px;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.PurchaseHistory-header {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 4em 1em;
+    margin-bottom: 2em;
+}
+
+.PurchaseHistory-header::after {
+    background-image: url('../images/map-figure.jpg');
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/*so purchase history does not run to the edges of the page*/
+.table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Customer-header {
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    padding: 4em 1em;
+    margin-bottom: 2em;
+}
+
+.Customer-header::after {
+    background-image: url('../images/map-figure.jpg');
+    background-size: cover;
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.reg-success {
+    height: 300px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*for purchase history to make borderless*/
+/*Keeping based on styling preferences*/
+/*.table td {
+    border-top: none !important;
+}*/
